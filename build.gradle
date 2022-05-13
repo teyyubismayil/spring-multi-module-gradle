@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id 'java-library'
     id 'org.springframework.boot' version '2.6.7'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 }
@@ -11,7 +10,6 @@ allprojects {
     sourceCompatibility = '17'
 
     apply plugin: 'java'
-    apply plugin: 'java-library'
     apply plugin: 'org.springframework.boot'
     apply plugin: 'io.spring.dependency-management'
 
